@@ -13,7 +13,7 @@ profile:
     <p>Geneva University Hospitals (HUG)</p>
     <p>Geneva, Switzerland</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -27,19 +27,15 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Roxane (Rox) Dumont, a Postdoctoral Researcher at the Unit of Population Epidemiology (UEP) at the Geneva University Hospitals (HUG).
+Hi! I'm Roxane Dumont, a Postdoctoral Researcher at the Unit of Population Epidemiology (UEP) at the Geneva University Hospitals (HUG).
 
-I am a researcher in population epidemiology with a background in statistics and economics. My work focuses on social inequalities, adolescent well-being and health behaviors, with the objective of improving public health policies through scientific evidence. I am currently working on addictive behaviors and dopaminergic stimulation.
+I am a researcher in population epidemiology with a background in statistics. My work focuses on social inequalities, health behaviors and adolescent well-being, with the objective of improving public health policies through scientific evidence. I am currently working on addictive and potentially addictive behaviors using data from the [Specchio](https://www.specchio-hub.ch/) population-based cohort and the Bus Santé cohort.
 
-I am interested in how the places we live, the work we do and the habits we build shape our health over time. My work sits at the intersection of population cohorts, spatial analysis and behavioral health: I want to understand not only who is at risk, but where, when and why, so that prevention can reach the people who need it most. I believe that robust, transparent and reproducible data analysis is one of the most powerful tools we have to reduce health inequalities.
+I am interested in how the places we live, the work we do and the habits we build shape our health over time. My work sits at the intersection of population cohorts and behavioral health: I want to understand not only who is at risk, but where, when and why, so that prevention can reach the people who need it most.
 
 ### Main fields of interest
 
 Population Epidemiology · Spatial Epidemiology · Social Inequalities in Health · Adolescent Health & Well-being · Addictive & Digital Behaviors · Sedentary Behavior & Physical Activity · Workplace Discrimination · Nutrition & Ultra-processed Foods
-
-### Main skills
-
-Longitudinal Cohort Analysis · Survival Analysis · Spatial & Spatiotemporal Statistics · Mixed-effects Models · Mediation Analysis · Network Analysis · R · Stata · Python · ArcGIS / QGIS · Scientific Writing · Science Communication
 
 ### Work and research
 
@@ -51,7 +47,7 @@ My research draws on two large population-based studies in Geneva: **Bus Santé*
 - **Diet:** patterns of highly processed food consumption and their associations with health.
 - **Women's health:** oral contraceptive use, side effects and discontinuation.
 
-During my PhD, I published on **post-COVID syndrome** in children and adolescents (Nature Communications, 2022; BMJ Open, 2022) and on **suicidal ideation** in adolescents during the pandemic (Swiss Medical Weekly, 2024). See my full list of [publications](/publications/).
+During my PhD, I published on **post-COVID syndrome** in children and adolescents (Nature Communications, 2022; BMJ Open, 2022) and on **suicidal ideation** in adolescents during the pandemic (Swiss Medical Weekly, 2024).
 
 ### Background
 
@@ -64,9 +60,13 @@ My research has been presented at the Swiss Pediatric Society annual conference 
 
 **Languages:** French (native), English (C1), Spanish (B2), German (B2), Persian (B1).
 
-### Work philosophy
+### Publications
 
-I am curious by nature and enjoy bringing together epidemiology, statistics, geography and the social sciences to answer questions that matter for public health. I care about research that is useful beyond the paper: findings that can inform prevention strategies and public policy. I enjoy working in interdisciplinary teams, mentoring students, and sharing results with both scientific and general audiences.
+<div class="publications">
+
+{% bibliography --group_by none %}
+
+</div>
 
 ### Beyond research
 
